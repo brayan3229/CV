@@ -1,0 +1,14 @@
+.Contenido {
+    display: flex;
+    
+}
+
+.left {
+    width: 30%;
+    background-color: #f0f0f0; /* opcional para ver la división */
+}
+
+.right {
+    width: 70%;
+    padding: 20px;
+}
