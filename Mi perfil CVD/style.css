@@ -1,14 +1,82 @@
-.Contenido {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
     display: flex;
-    
+    width: 900px;
+    margin: 30px auto;
+    background: white;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+/* LADO IZQUIERDO */
 .left {
-    width: 30%;
-    background-color: #f0f0f0; /* opcional para ver la división */
+    width: 35%;
+    background: linear-gradient(180deg, #4e4eff, #3c3cd1);
+    color: white;
+    padding: 30px;
 }
 
-.right {
-    width: 70%;
-    padding: 20px;
+.profile-img {
+    text-align: center;
+    margin-bottom: 20px;
 }
+
+.profile-img img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 5px solid white;
+    object-fit: cover;
+}
+
+.section {
+    margin-top: 25px;
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+}
+
+.section ul {
+    margin-left: 15px;
+}
+
+/* LADO DERECHO */
+.right {
+    width: 65%;
+    padding: 40px;
+}
+
+.right h1 {
+    font-size: 32px;
+    color: #3c3cd1;
+    margin-bottom: 30px;
+}
+
+.right .section h2 {
+    color: #3c3cd1;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3c3cd1;
+    padding-bottom: 5px;
+}
+
+.right .section h3 {
+    margin-top: 10px;
+    color: #444;
+}
+
+.right ul {
+    margin-left: 20px;
+}
+
