@@ -7,13 +7,15 @@
 
 body {
     background-color: #f4f4f4;
+    font-size: 18px;
+    display: flex;
 }
 
 .container {
     display: flex;
     width: 900px;
     margin: 30px auto;
-    background: white;
+    background: #3492;
     box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
@@ -31,25 +33,28 @@ body {
 }
 
 .profile-img img {
-    width: 160px;
-    height: 160px;
+    width: 190px;
+    height: 190px;
     border-radius: 50%;
     border: 5px solid white;
     object-fit: cover;
 }
 
 .section {
+    
     margin-top: 25px;
+    
 }
 
 .section h2 {
-    margin-bottom: 10px;
+    margin-bottom: 18px;
     border-bottom: 2px solid white;
     padding-bottom: 5px;
 }
 
 .section ul {
     margin-left: 15px;
+    
 }
 
 /* LADO DERECHO */
@@ -73,7 +78,7 @@ body {
 
 .right .section h3 {
     margin-top: 10px;
-    color: #444;
+    color: black;
 }
 
 .right ul {
